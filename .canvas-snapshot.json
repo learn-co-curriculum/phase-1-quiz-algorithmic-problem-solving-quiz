@@ -4,7 +4,7 @@
     "title": "Algorithmic Problem Solving Quiz",
     "html_url": "https://learning.flatironschool.com/courses/3297/quizzes/22405",
     "mobile_url": "https://learning.flatironschool.com/courses/3297/quizzes/22405?force_user=1&persist_headless=1",
-    "description": "<p>It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.</p>\n<p>If you don't know the answer to a question, please do not guess. Instead, select \"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
+    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-1-quiz-algorithmic-problem-solving\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-1-quiz-algorithmic-problem-solving/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.</p>\n\n<p>If you don't know the answer to a question, please do not guess. Instead, select\n\"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
     "quiz_type": "assignment",
     "time_limit": null,
     "timer_autosubmit_disabled": false,
@@ -71,7 +71,7 @@
     "only_visible_to_overrides": false,
     "assignment_group_id": 6357,
     "show_correct_answers_last_attempt": true,
-    "version_number": 6,
+    "version_number": 7,
     "has_access_code": false,
     "post_to_sis": false,
     "migration_id": null,
@@ -89,16 +89,29 @@
       "position": null,
       "question_name": "Question 1",
       "question_type": "short_answer_question",
-      "question_text": "<p>An _____ is simply a well-defined procedure, or set of instructions, for accomplishing a specific task.</p>",
+      "question_text": "<p>An _____ is simply a well-defined procedure, or set of instructions, for\naccomplishing a specific task.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/pages/what-is-an-algorithm\">What is an Algorithm?</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/pages/what-is-an-algorithm\">What is an Algorithm?</a></p>",
       "answers": [
-
+        {
+          "id": 9190,
+          "text": "algorithm",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": 4133,
+          "text": "Algorithm",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        }
       ],
       "variables": null,
       "formulas": null,
@@ -115,16 +128,36 @@
       "position": null,
       "question_name": "Question 2",
       "question_type": "short_answer_question",
-      "question_text": "<p>_____ is used to classify algorithms according to how their run time or space requirements grow as the input size grows.</p>",
+      "question_text": "<p>_____ is used to classify algorithms according to how their run time or\nspace requirements grow as the input size grows.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/pages/big-o-notation\">Big O Notation</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/pages/big-o-notation\">Big O Notation</a></p>",
       "answers": [
-
+        {
+          "id": 185,
+          "text": "Big O",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": 1205,
+          "text": "Big O notation",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": 5927,
+          "text": "Big O Notation",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        }
       ],
       "variables": null,
       "formulas": null,
@@ -148,46 +181,46 @@
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/pages/big-o-notation\">Big O Notation</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/pages/big-o-notation\">Big O Notation</a></p>",
       "answers": [
         {
-          "id": 7022,
+          "id": 6359,
           "text": "",
           "html": "<p>O(n)</p>",
           "comments": "",
-          "comments_html": "",
+          "comments_html": "<p>Correct! Since the algorithm needs to iterate through each letter of the\ninput, the time complexity will grow in linear proportion to the size of the\ninput.</p>",
           "weight": 100.0
         },
         {
-          "id": 6459,
+          "id": 8122,
           "text": "",
           "html": "<p>O(1)</p>",
           "comments": "",
-          "comments_html": "",
+          "comments_html": "<p>Not quite. O(1) would mean the algorithm's runtime stays the same regardless\nof how large the input is.</p>",
           "weight": 0.0
         },
         {
-          "id": 802,
+          "id": 7362,
           "text": "",
-          "html": "<p>O(n&lt;sup&gt;2&lt;/sup&gt;)</p>",
+          "html": "<p>O(n²)</p>",
           "comments": "",
-          "comments_html": "",
+          "comments_html": "<p>Not quite. O(n²) would mean the algorithm's runtime grows exponentially as the\nsize of the input grows, like an algorithm that involved a nested loop.</p>",
           "weight": 0.0
         },
         {
-          "id": 1242,
+          "id": 8322,
           "text": "",
           "html": "<p>O(log n)</p>",
           "comments": "",
-          "comments_html": "",
+          "comments_html": "<p>Not quite. O(log n) would mean that the algorithm's time complexity grows in a\nlogarithmic proportion to the size of the input (so an input of size 1 would\ntake 1 step, size 10 would take 2 steps, size 100 would take 3 steps, etc).</p>",
           "weight": 0.0
         },
         {
-          "id": 6004,
+          "id": 8856,
           "text": "",
           "html": "<p>I don't know</p>",
           "comments": "",
-          "comments_html": "",
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
           "weight": 0.0
         }
       ],
@@ -216,43 +249,43 @@
       "neutral_comments_html": "",
       "answers": [
         {
-          "id": 5005,
+          "id": 7322,
           "text": "",
-          "html": "<p>O(n&lt;sup&gt;2&lt;/sup&gt;)</p>",
+          "html": "<p>O(n²)</p>",
           "comments": "",
-          "comments_html": "",
+          "comments_html": "<p>Correct! Since this algorithm comparing each element against each other\nelement in this array, as the size of the input array grows, the runtime gets\nexponentially worse.</p>",
           "weight": 100.0
         },
         {
-          "id": 6098,
+          "id": 4049,
           "text": "",
           "html": "<p>O(n)</p>",
           "comments": "",
-          "comments_html": "",
+          "comments_html": "<p>Now quite. O(n) would mean the time complexity will grow in linear proportion\nto the size of the input.</p>",
           "weight": 0.0
         },
         {
-          "id": 5772,
+          "id": 2151,
           "text": "",
           "html": "<p>O(1)</p>",
           "comments": "",
-          "comments_html": "",
+          "comments_html": "<p>Not quite. O(1) would mean the algorithm's runtime stays the same regardless\nof how large the input is.</p>",
           "weight": 0.0
         },
         {
-          "id": 7334,
+          "id": 4193,
           "text": "",
           "html": "<p>O(log n)</p>",
           "comments": "",
-          "comments_html": "",
+          "comments_html": "<p>Not quite. O(log n) would mean that the algorithm's time complexity grows in a\nlogarithmic proportion to the size of the input (so an input of size 1 would\ntake 1 step, size 10 would take 2 steps, size 100 would take 3 steps, etc).</p>",
           "weight": 0.0
         },
         {
-          "id": 5810,
+          "id": 3715,
           "text": "",
           "html": "<p>I don't know</p>",
           "comments": "",
-          "comments_html": "",
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
           "weight": 0.0
         }
       ],
@@ -278,46 +311,46 @@
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/pages/big-o-notation\">Big O Notation</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/pages/big-o-notation\">Big O Notation</a></p>",
       "answers": [
         {
-          "id": 4185,
+          "id": 6837,
           "text": "",
           "html": "<p>O(n)</p>",
           "comments": "",
-          "comments_html": "",
+          "comments_html": "<p>Correct! Even though we're building a built-in method, the JavaScript engine\nwould still need to iterate over every element of the input array under the\nhood in order to find the index position of the target element.</p>",
           "weight": 100.0
         },
         {
-          "id": 5736,
+          "id": 1380,
           "text": "",
           "html": "<p>O(1)</p>",
           "comments": "",
-          "comments_html": "",
+          "comments_html": "<p>Not quite. O(1) would mean the algorithm's runtime stays the same regardless\nof how large the input is. Even though we're using a built-in method, the\nJavaScript engine still needs to iterate over every element of the input array\nunder the hood in order to find the index position of the target element.</p>",
           "weight": 0.0
         },
         {
-          "id": 2097,
+          "id": 3309,
           "text": "",
-          "html": "<p>O(n&lt;sup&gt;2&lt;/sup&gt;)</p>",
+          "html": "<p>O(n²)</p>",
           "comments": "",
-          "comments_html": "",
+          "comments_html": "<p>Not quite. O(n²) would mean the algorithm's runtime grows exponentially as the\nsize of the input grows, like an algorithm that involved a nested loop.</p>",
           "weight": 0.0
         },
         {
-          "id": 5641,
+          "id": 9687,
           "text": "",
           "html": "<p>O(log n)</p>",
           "comments": "",
-          "comments_html": "",
+          "comments_html": "<p>Not quite. O(log n) would mean that the algorithm's time complexity grows in a\nlogarithmic proportion to the size of the input (so an input of size 1 would\ntake 1 step, size 10 would take 2 steps, size 100 would take 3 steps, etc).</p>",
           "weight": 0.0
         },
         {
-          "id": 5093,
+          "id": 9049,
           "text": "",
           "html": "<p>I don't know</p>",
           "comments": "",
-          "comments_html": "",
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
           "weight": 0.0
         }
       ],
