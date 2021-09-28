@@ -1,7 +1,7 @@
 ---
 id: 22405
 course_id: 3297
-repo: phase-1-quiz-algorithmic-problem-solving-quiz
+repo: phase-1-quiz-algorithmic-problem-solving
 ---
 
 # Algorithmic Problem Solving Quiz
