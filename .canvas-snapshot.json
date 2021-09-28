@@ -71,7 +71,7 @@
     "only_visible_to_overrides": false,
     "assignment_group_id": 6357,
     "show_correct_answers_last_attempt": true,
-    "version_number": 7,
+    "version_number": 8,
     "has_access_code": false,
     "post_to_sis": false,
     "migration_id": null,
@@ -96,17 +96,17 @@
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/pages/what-is-an-algorithm\">What is an Algorithm?</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/what-is-an-algorithm\">What is an Algorithm?</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 9190,
+          "id": 2922,
           "text": "algorithm",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 4133,
+          "id": 4288,
           "text": "Algorithm",
           "comments": "",
           "comments_html": "",
@@ -135,24 +135,24 @@
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/pages/big-o-notation\">Big O Notation</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/big-o-notation\">Big O Notation</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 185,
+          "id": 4872,
           "text": "Big O",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 1205,
+          "id": 7611,
           "text": "Big O notation",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 5927,
+          "id": 9881,
           "text": "Big O Notation",
           "comments": "",
           "comments_html": "",
@@ -181,10 +181,10 @@
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/pages/big-o-notation\">Big O Notation</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/big-o-notation\">Big O Notation</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 6359,
+          "id": 4056,
           "text": "",
           "html": "<p>O(n)</p>",
           "comments": "",
@@ -192,7 +192,7 @@
           "weight": 100.0
         },
         {
-          "id": 8122,
+          "id": 3856,
           "text": "",
           "html": "<p>O(1)</p>",
           "comments": "",
@@ -200,7 +200,7 @@
           "weight": 0.0
         },
         {
-          "id": 7362,
+          "id": 2817,
           "text": "",
           "html": "<p>O(n²)</p>",
           "comments": "",
@@ -208,7 +208,7 @@
           "weight": 0.0
         },
         {
-          "id": 8322,
+          "id": 2218,
           "text": "",
           "html": "<p>O(log n)</p>",
           "comments": "",
@@ -216,7 +216,7 @@
           "weight": 0.0
         },
         {
-          "id": 8856,
+          "id": 921,
           "text": "",
           "html": "<p>I don't know</p>",
           "comments": "",
@@ -249,7 +249,7 @@
       "neutral_comments_html": "",
       "answers": [
         {
-          "id": 7322,
+          "id": 4805,
           "text": "",
           "html": "<p>O(n²)</p>",
           "comments": "",
@@ -257,7 +257,7 @@
           "weight": 100.0
         },
         {
-          "id": 4049,
+          "id": 7503,
           "text": "",
           "html": "<p>O(n)</p>",
           "comments": "",
@@ -265,7 +265,7 @@
           "weight": 0.0
         },
         {
-          "id": 2151,
+          "id": 989,
           "text": "",
           "html": "<p>O(1)</p>",
           "comments": "",
@@ -273,7 +273,7 @@
           "weight": 0.0
         },
         {
-          "id": 4193,
+          "id": 7132,
           "text": "",
           "html": "<p>O(log n)</p>",
           "comments": "",
@@ -281,7 +281,7 @@
           "weight": 0.0
         },
         {
-          "id": 3715,
+          "id": 4804,
           "text": "",
           "html": "<p>I don't know</p>",
           "comments": "",
@@ -311,10 +311,10 @@
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/pages/big-o-notation\">Big O Notation</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/big-o-notation\">Big O Notation</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 6837,
+          "id": 6463,
           "text": "",
           "html": "<p>O(n)</p>",
           "comments": "",
@@ -322,7 +322,7 @@
           "weight": 100.0
         },
         {
-          "id": 1380,
+          "id": 5633,
           "text": "",
           "html": "<p>O(1)</p>",
           "comments": "",
@@ -330,7 +330,7 @@
           "weight": 0.0
         },
         {
-          "id": 3309,
+          "id": 8228,
           "text": "",
           "html": "<p>O(n²)</p>",
           "comments": "",
@@ -338,7 +338,7 @@
           "weight": 0.0
         },
         {
-          "id": 9687,
+          "id": 5173,
           "text": "",
           "html": "<p>O(log n)</p>",
           "comments": "",
@@ -346,7 +346,7 @@
           "weight": 0.0
         },
         {
-          "id": 9049,
+          "id": 4780,
           "text": "",
           "html": "<p>I don't know</p>",
           "comments": "",
