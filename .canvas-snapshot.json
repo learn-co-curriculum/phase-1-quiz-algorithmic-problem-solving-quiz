@@ -1,0 +1,332 @@
+{
+  "quiz": {
+    "id": 22405,
+    "title": "Algorithmic Problem Solving Quiz",
+    "html_url": "https://learning.flatironschool.com/courses/3297/quizzes/22405",
+    "mobile_url": "https://learning.flatironschool.com/courses/3297/quizzes/22405?force_user=1&persist_headless=1",
+    "description": "<p>It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.</p>\n<p>If you don't know the answer to a question, please do not guess. Instead, select \"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
+    "quiz_type": "assignment",
+    "time_limit": null,
+    "timer_autosubmit_disabled": false,
+    "shuffle_answers": true,
+    "show_correct_answers": true,
+    "scoring_policy": "keep_highest",
+    "allowed_attempts": 3,
+    "one_question_at_a_time": true,
+    "question_count": 5,
+    "points_possible": 5.0,
+    "cant_go_back": false,
+    "access_code": null,
+    "ip_filter": null,
+    "due_at": null,
+    "lock_at": null,
+    "unlock_at": null,
+    "published": false,
+    "unpublishable": true,
+    "locked_for_user": true,
+    "lock_info": {
+      "missing_permission": "participate_as_student",
+      "asset_string": "quizzes:quiz_22405"
+    },
+    "lock_explanation": "This quiz is currently locked.",
+    "hide_results": "until_after_last_attempt",
+    "show_correct_answers_at": null,
+    "hide_correct_answers_at": null,
+    "all_dates": [
+      {
+        "due_at": null,
+        "unlock_at": null,
+        "lock_at": null,
+        "base": true
+      }
+    ],
+    "can_unpublish": true,
+    "can_update": true,
+    "require_lockdown_browser": false,
+    "require_lockdown_browser_for_results": false,
+    "require_lockdown_browser_monitor": false,
+    "lockdown_browser_monitor_data": null,
+    "speed_grader_url": null,
+    "permissions": {
+      "manage": true,
+      "read": true,
+      "create": true,
+      "update": true,
+      "submit": true,
+      "preview": true,
+      "delete": true,
+      "read_statistics": true,
+      "grade": true,
+      "review_grades": true,
+      "view_answer_audits": true
+    },
+    "quiz_reports_url": "https://learning.flatironschool.com/api/v1/courses/3297/quizzes/22405/reports",
+    "quiz_statistics_url": "https://learning.flatironschool.com/api/v1/courses/3297/quizzes/22405/statistics",
+    "message_students_url": "https://learning.flatironschool.com/api/v1/courses/3297/quizzes/22405/submission_users/message",
+    "section_count": 1,
+    "important_dates": false,
+    "quiz_submission_versions_html_url": "https://learning.flatironschool.com/courses/3297/quizzes/22405/submission_versions",
+    "assignment_id": 143477,
+    "one_time_results": false,
+    "only_visible_to_overrides": false,
+    "assignment_group_id": 6357,
+    "show_correct_answers_last_attempt": true,
+    "version_number": 6,
+    "has_access_code": false,
+    "post_to_sis": false,
+    "migration_id": null,
+    "question_types": [
+      "short_answer_question",
+      "multiple_choice_question"
+    ]
+  },
+  "questions": [
+    {
+      "quiz_id": 22405,
+      "id": 146234,
+      "quiz_group_id": null,
+      "assessment_question_id": 179198,
+      "position": null,
+      "question_name": "Question 1",
+      "question_type": "short_answer_question",
+      "question_text": "<p>An _____ is simply a well-defined procedure, or set of instructions, for accomplishing a specific task.</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/pages/what-is-an-algorithm\">What is an Algorithm?</a></p>",
+      "answers": [
+
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 22405,
+      "id": 146236,
+      "quiz_group_id": null,
+      "assessment_question_id": 179200,
+      "position": null,
+      "question_name": "Question 2",
+      "question_type": "short_answer_question",
+      "question_text": "<p>_____ is used to classify algorithms according to how their run time or space requirements grow as the input size grows.</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/pages/big-o-notation\">Big O Notation</a></p>",
+      "answers": [
+
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 22405,
+      "id": 146235,
+      "quiz_group_id": null,
+      "assessment_question_id": 179199,
+      "position": null,
+      "question_name": "Question 3",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>Calculate the <strong>time complexity</strong> for the following code using Big O notation:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">function</span> <span class=\"nx\">logLetter</span><span class=\"p\">(</span><span class=\"nx\">string</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n  <span class=\"k\">for</span> <span class=\"p\">(</span><span class=\"kd\">const</span> <span class=\"nx\">letter</span> <span class=\"k\">of</span> <span class=\"nx\">string</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n    <span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"nx\">letter</span><span class=\"p\">);</span>\n  <span class=\"p\">}</span>\n<span class=\"p\">}</span>\n</code></pre></div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/pages/big-o-notation\">Big O Notation</a></p>",
+      "answers": [
+        {
+          "id": 7022,
+          "text": "",
+          "html": "<p>O(n)</p>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": 6459,
+          "text": "",
+          "html": "<p>O(1)</p>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": 802,
+          "text": "",
+          "html": "<p>O(n&lt;sup&gt;2&lt;/sup&gt;)</p>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": 1242,
+          "text": "",
+          "html": "<p>O(log n)</p>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": 6004,
+          "text": "",
+          "html": "<p>I don't know</p>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 22405,
+      "id": 146233,
+      "quiz_group_id": null,
+      "assessment_question_id": 179197,
+      "position": null,
+      "question_name": "Question 4",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>Calculate the <strong>time complexity</strong> for the following code using Big O notation:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">function</span> <span class=\"nx\">badCounting</span><span class=\"p\">(</span><span class=\"nx\">array</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n  <span class=\"kd\">let</span> <span class=\"nx\">count</span> <span class=\"o\">=</span> <span class=\"mi\">0</span><span class=\"p\">;</span>\n  <span class=\"nx\">array</span><span class=\"p\">.</span><span class=\"nx\">forEach</span><span class=\"p\">((</span><span class=\"nx\">value</span><span class=\"p\">,</span> <span class=\"nx\">idx</span><span class=\"p\">)</span> <span class=\"o\">=&gt;</span> <span class=\"p\">{</span>\n    <span class=\"nx\">array</span><span class=\"p\">.</span><span class=\"nx\">forEach</span><span class=\"p\">((</span><span class=\"nx\">testValue</span><span class=\"p\">,</span> <span class=\"nx\">testIdx</span><span class=\"p\">)</span> <span class=\"o\">=&gt;</span> <span class=\"p\">{</span>\n      <span class=\"k\">if</span> <span class=\"p\">(</span><span class=\"nx\">testIdx</span> <span class=\"o\">!==</span> <span class=\"nx\">idx</span> <span class=\"o\">&amp;&amp;</span> <span class=\"nx\">value</span> <span class=\"o\">===</span> <span class=\"nx\">testValue</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n        <span class=\"nx\">count</span><span class=\"o\">++</span><span class=\"p\">;</span>\n      <span class=\"p\">}</span>\n    <span class=\"p\">});</span>\n  <span class=\"p\">});</span>\n  <span class=\"k\">return</span> <span class=\"nx\">count</span> <span class=\"o\">/</span> <span class=\"mi\">2</span><span class=\"p\">;</span>\n<span class=\"p\">}</span>\n</code></pre></div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": 5005,
+          "text": "",
+          "html": "<p>O(n&lt;sup&gt;2&lt;/sup&gt;)</p>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": 6098,
+          "text": "",
+          "html": "<p>O(n)</p>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": 5772,
+          "text": "",
+          "html": "<p>O(1)</p>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": 7334,
+          "text": "",
+          "html": "<p>O(log n)</p>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": 5810,
+          "text": "",
+          "html": "<p>I don't know</p>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 22405,
+      "id": 146237,
+      "quiz_group_id": null,
+      "assessment_question_id": 179201,
+      "position": null,
+      "question_name": "Question 5",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>Calculate the <strong>time complexity</strong> for the following code using Big O notation:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">function</span> <span class=\"nx\">findIndexOfElement</span><span class=\"p\">(</span><span class=\"nx\">array</span><span class=\"p\">,</span> <span class=\"nx\">target</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"nx\">array</span><span class=\"p\">.</span><span class=\"nx\">indexOf</span><span class=\"p\">(</span><span class=\"nx\">target</span><span class=\"p\">);</span>\n<span class=\"p\">}</span>\n</code></pre></div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source:</strong> <a href=\"https://learning.flatironschool.com/courses/3297/pages/big-o-notation\">Big O Notation</a></p>",
+      "answers": [
+        {
+          "id": 4185,
+          "text": "",
+          "html": "<p>O(n)</p>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": 5736,
+          "text": "",
+          "html": "<p>O(1)</p>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": 2097,
+          "text": "",
+          "html": "<p>O(n&lt;sup&gt;2&lt;/sup&gt;)</p>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": 5641,
+          "text": "",
+          "html": "<p>O(log n)</p>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": 5093,
+          "text": "",
+          "html": "<p>I don't know</p>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    }
+  ]
+}
